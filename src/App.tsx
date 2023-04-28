@@ -10,7 +10,7 @@ function App() {
       <div className="container">
         <Routes>
           <Route path="/Hacker-News" element={<StoriesListContainer />} />
-          <Route path="/news/:id" element={<StoryContainer />} />
+          <Route path="/Hacker-News/news/:id" element={<StoryContainer />} />
           {/* <Route path='' Component={ErrorPage} /> */}
         </Routes>
       </div>

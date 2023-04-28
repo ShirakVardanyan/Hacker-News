@@ -12,7 +12,7 @@ export function StoryContainer(): JSX.Element {
   const navigate = useNavigate();
 
   const onBackClick = () => {
-    navigate(`/`);
+    navigate(`/Hacker-News`);
   };
 
   return (
