@@ -15,8 +15,6 @@ export const getStories = async (
   type: StoryType,
   count: number
 ): Promise<IStoryItem[] | any> => {
-  console.log("times");
-
   try {
     const { data: storyIds } = await axios.get(
       `${BASE_API_URL}/${type}.json?limitToFirst=${count}&orderBy="$key"`

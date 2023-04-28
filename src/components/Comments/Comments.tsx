@@ -10,7 +10,6 @@ interface ICommentsProps {
 
 export function Comments({ id, kids }: ICommentsProps): JSX.Element {
   const [comments, setComments] = useState<ICommentData[]>([]);
-  const [isLoading, setIsLoading] = useState<boolean>(true);
 
   const [nestedComments, setNestedComments] = useState<{
     [id: string]: ICommentData;
@@ -23,8 +22,6 @@ export function Comments({ id, kids }: ICommentsProps): JSX.Element {
           setComments((val) => [...val, res]);
         });
       });
-    } else {
-      setIsLoading(false);
     }
   }, [id]);
 
