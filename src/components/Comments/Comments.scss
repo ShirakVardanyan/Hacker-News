@@ -1,0 +1,37 @@
+.comments {
+  &__danger-text {
+    color: #6b7f99;
+    *{
+      white-space: break-spaces;
+    }
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    list-style: none;
+  }
+
+  &__list-item {
+    background: #f3f5f7;
+    border-radius: 4px;
+    padding: 6px;
+    display: flex;
+    gap: 16px;
+    
+  }
+
+  &__nested-comment {
+    margin-top: 4px;
+    margin-left: 24px;
+  }
+
+  &__cta {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 14px;
+  }
+
+}
