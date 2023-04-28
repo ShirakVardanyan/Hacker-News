@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ShirakVardanyan/Hacker-News/static/css/main.48276522.css",
+    "main.js": "/ShirakVardanyan/Hacker-News/static/js/main.33735e5a.js",
+    "index.html": "/ShirakVardanyan/Hacker-News/index.html",
+    "main.48276522.css.map": "/ShirakVardanyan/Hacker-News/static/css/main.48276522.css.map",
+    "main.33735e5a.js.map": "/ShirakVardanyan/Hacker-News/static/js/main.33735e5a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.48276522.css",
+    "static/js/main.33735e5a.js"
+  ]
+}
